@@ -1,1 +1,1 @@
-Matt's fully documented experiences and portfolio. You can find more information on all of my current knowledge and abilities.
+Matt's fully documented experiences and portfolio projects. You can find more information on all of my current knowledge and abilities by downloading the folder and opening MattBookPro.html.

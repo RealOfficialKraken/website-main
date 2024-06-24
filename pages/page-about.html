@@ -4,15 +4,15 @@
     <div class="navbar">
         <p></p>
             <h1>
-                <center style="color:rgb(251, 255, 0)">
+                <center class="matt-title"">
                     MattBookPro 
                 </center>
             </h1>
             <center>
-                <h2 style="color:rgb(141, 255, 96)"><a href="MattBookPro.html"  style="text-decoration: none; color:inherit">Everything to know about Matt Krueger</a></h2>
+                <h2 class="matt-subtitle"><a href="MattBookPro.html"  style="text-decoration: none; color:inherit">Everything to know about Matt Krueger</a></h2>
             </center>
             <p></p>
-            <center class="optionbox" style="color:rgb(238, 255, 0)">
+            <center class="optionbox">
                 | 
                 <a href="page-about.html" style="text-decoration: none; color:inherit">About Me</a>
                  | 
@@ -22,6 +22,8 @@
                  | 
                  <a href="page-opengoal.html" style="text-decoration: none; color:inherit">OpenGOAL Modding</a>
                  | 
+                 <a href="page-webdevelopment.html" style="text-decoration: none; color:inherit">Web Development</a>
+                 | 
                 </center>
     </div>
 <head style="background-color:rgba(126, 109, 145, 0.404)">
@@ -29,50 +31,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title style="color:rgb(0, 255, 255)"> MattBookPro - About Me</title>
 </head>
-<body style="background-color:rgb(0, 91, 128);color:azure;">
-    <h1 style="color:aqua">A Brief Introduction</h1>
-    <img src="https://i.imgur.com/42ktY7g.jpg" title="source: imgur.com" alt="pfp" style="height: 16%;width: 16%"/>
-    <p></p><label>Date of Birth <label>
-        <input type="date" value="1999-06-18" name="birthday" id='birthday' onchange="ageCount()"> 
+<div>
+    <body style="background-color:rgb(0, 91, 128);color:azure;">
+        <h1 style="color:aqua">A Brief Introduction</h1>
+        <img src="https://i.imgur.com/42ktY7g.jpg" title="source: imgur.com" alt="pfp" style="height: 16%;width: 16%"/>
         
-        <p>My Current Age:</p>
-        <p id="agecalc"></p>
-        <script>
-            function ageCount() {
-              var now =new Date();                            //getting current date
-              var currentY= now.getFullYear();                //extracting year from the date
-              var currentM= now.getMonth();                   //extracting month from the date
                 
-              var dobget =document.getElementById("birthday").value; //getting user input
-              var dob= new Date(dobget);                             //formatting input as date
-              var prevY= dob.getFullYear();                          //extracting year from input date
-              var prevM= dob.getMonth();                             //extracting month from input date
-                
-              var ageY =currentY - prevY;
-              var ageM =Math.abs(currentM- prevM);          //converting any negative value to positive
-                
-              document.getElementById('agecalc').innerHTML = ageY +' Years Old';
-              }
-              
-              </script>
-    <p>Heyo! My name is Matthew Krueger, I was born on June 18th in Columbus, Ohio in 1999. My older sibling Joey was 5 at the time, excited to see he finally had a little brother.
-        Our family had always moved around considering my father's career in Film Production. So when I was 2, we moved to Oceanside, California.
-        We jumped around the southern side like Menifee, Temecula, and Murrieta throughout the years. </p>
-        <p>My favorite music is melodic, any genre that pulls this off, pulls me in.</p>
-        <p>My favorite take-out food is In-N-Out Burger, and my favorite dish is Chicken Risotto, and/or a Medium Rare Porterhouse.</p>
-        <p>My favorite types of video games are puzzle/over-arching stories.</p>
-        <p>My favorite story narratives are meta types</p>
-        <p>I am exceptional at competing in Rocket League, and at my peak, I was the top 0.02% of players on the ranked leaderboard. Grand Champion was my highest rank at 1613 MMR</p>
-        <p>I think the best expression of myself can be exhibited through the art that I do. I love making things. The concept of Head to Tangibility has been a huge interest for me for all of my life.</p>
-        <p></p>
-        <p></p>
-        <img src="https://i.imgur.com/QlA2gh5.jpg" title="source: imgur.com" alt="pfp" style="height: 50%;width: 50%"/>
-        <p>
-            This is a picture of my whole family. That's me, in the flannel. I've always had an over-active imagination, constantly creating things in the gargantuan mindscape I call my head. 
-            My mother, on the other hand, called it "Matthew's World". In 2002, my family bought us a Playstation 2, and my older brother and I couldn't be more excited.
-            My very first video game title, Jak and Daxter, was a completely revolutionary game at the time. The game still holds near and dear to my heart, to this day
-             (see <a href="page-opengoal.html">here</a> for more details). I believe Joey said I ended up beating it when I was 5 years old.
-        </p>
-        <img src="https://i.imgur.com/9EMJLn8.jpg" style="height:45%; width:47%;">
-</body>
+                </script>
+        <p>Heyo! My name is Matthew Krueger, I was born on June 18th in Columbus, Ohio in 1999. My older sibling Joey was 5 at the time, excited to see he finally had a little brother.
+            Our family had always moved around considering my father's career in Film Production. So when I was 2, we moved to Oceanside, California.
+            We jumped around the southern side like Menifee, Temecula, and Murrieta. Throughout the years, I got a little brother, Joshua. Then came Emily, my first and only little sister. And finally, Adam, the youngest brother, was born into our family. </p>
+            <p>My favorite music is melodic, any genre that pulls this off, pulls me in.</p>
+            <p>My favorite take-out food is In-N-Out Burger, and my favorite dish is Chicken Risotto, and/or a Medium Rare Porterhouse.</p>
+            <p>My favorite types of video games are puzzle/over-arching stories.</p>
+            <p>My favorite story narratives are meta types</p>
+            <p>I am exceptional at competing in Rocket League, and at my peak, I was the top 0.02% of players on the ranked leaderboard. Grand Champion was my highest rank at 1613 MMR</p>
+            <p>I think the best expression of myself can be exhibited through the art that I do. I love making things. The concept of Head to Tangibility has been a huge interest for me for all of my life.</p>
+            <p>Yes, I am related to a "Fredrick Adolf Krueger", my Grandfather on my dad's side. Contrary to popular belief, he's actually a Christian pastor who loves and prays for everyone whom he meets. No joke!</p>
+            <p></p>
+            <p></p>
+            <img src="https://i.imgur.com/QlA2gh5.jpg" title="source: imgur.com" alt="pfp" style="height: 50%;width: 50%"/>
+            <p>
+                This is a picture of my whole family. That's me, in the flannel. I've always had an over-active imagination, constantly creating things in the gargantuan mindscape I call my head. 
+                My mother, on the other hand, called it "Matthew's World". In 2002, my family bought us a Playstation 2, and my my introduction to video games began.
+                My very first video game title, Jak and Daxter, was completely revolutionary at the time, and it absolutely blew my mind. It still holds near and dear to my heart, to this day
+                (see <a href="page-opengoal.html">here</a> for more details).
+            </p>
+            <img src="https://i.imgur.com/9EMJLn8.jpg" style="height:45%; width:47%;">
+            <p>This was taken back in 2010 with my little brother Joshua and I. My dad was a Photographer back in the day, always constantly taking photos of his beautiful family with his Canon. But that was just one of his side-hustles. Still, he was always really good at taking the most "vulnerable" photos of us, capturing all of our expression in one image.</p>
+        </body>
+</div>
 </html>

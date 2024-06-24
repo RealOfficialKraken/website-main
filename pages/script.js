@@ -12,6 +12,7 @@ function ageCount() {
     var ageM =Math.abs(currentM- prevM);          //converting any negative value to positive
       
     document.getElementById('demo').innerHTML = ageY +' years ' + ageM +' months';
+    document.getElementById('age').innerHTML = ageY +' years old.'
     }
 
     function submitBday() {

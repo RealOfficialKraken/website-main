@@ -5,7 +5,7 @@ body{
 
 .navbar {
     /* The background image */
-    background-image: url("https://i.imgur.com/6MX8MNm.jpg");
+    background-image: url("https://i.imgur.com/pqP0sJq.jpg?1");
   
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
@@ -17,11 +17,17 @@ body{
     background-repeat: no-repeat;
   
     /* Scale the background image to be as large as possible */
-    background-size: cover;
+    background-size: 50%;
+    
+    height: 150px;
 
-    padding-bottom: 50px;
+    padding-bottom: 1%;
+  }
+
+  .tuffy-bold {
+    font-family: tuffy-bold
   }
 
   .optionbox {
-    background-color:rgb(0, 116, 211);
+    background-color:rgb(0, 91, 128);
   }
